@@ -55,7 +55,7 @@
     font-size: 28px;
     color: var(--text-color);
     transition: .3s;
-    font-style: italic;
+    font-family: 'Allura',  cursive;
   }
   .rightside-header {
     display: flex;
@@ -127,7 +127,7 @@
   #introduction span {
     color: var(--lightseagreen-color);
     transition: .3s;
-    font-family: system-ui;
+    font-family: 'Allura',  cursive;
   }
   .occupation{
     display: block;
@@ -203,6 +203,18 @@
     display: block;
     width: 100%;
     border-radius: 50%;
+  }
+  .icon{
+    display: none;
+  }
+  .menu-icon{
+    margin-left: 10px;
+    font-size: 26px;
+    color: var(--lightseagreen-color);
+    cursor: pointer;
+    transition: .3s;
+    display: flex;
+    align-items: center;
   }
 
 
