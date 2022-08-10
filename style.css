@@ -122,6 +122,12 @@
     width: 100%;
     padding-right: 20px;
   }
+  .pagemain-content h1{
+    color: var(--lightseagreen-color);
+    font-family: 'Allura',  cursive;
+    text-align: center;
+    padding: 10px;
+  }
   #introduction{
     font-weight: 600;
     font-size: 64px;
@@ -223,7 +229,13 @@
     display: flex;
     align-items: center;
   }
+  #about-me{
 
+  }
+  #about-me p{
+    line-height: 25px;
+    text-align: justify;
+  }
   @media (max-width: 1023px) {
     .menu-link{
       font-size: 15px;
