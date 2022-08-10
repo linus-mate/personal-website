@@ -76,6 +76,12 @@
     position: relative;
     transition: .3s;
   }
+  a.active:hover{
+    border: 1px solid var(--white-color);
+    transition: .5s;
+    background: var(--gold-color);
+    border-radius: 150px;
+  }
   #menu-link:hover{
     color: var(--lightseagreen-color);
   }
@@ -89,6 +95,7 @@
     background: var(--lightseagreen-color);
     border-radius: 2px;
     transition: .3s;
+
   }
   #menu-link:hover:after {
     width: 100%;
@@ -205,7 +212,7 @@
     border-radius: 50%;
   }
   .icon{
-    display: ;
+    display: none;
   }
   .menu-icon{
     margin-left: 10px;
@@ -250,6 +257,9 @@
   @media (max-width: 767px) {
     #header-content {
       padding: 20px 0;
+    }
+    .icon{
+      display: block;
     }
     #first-page {
       min-height: calc(100vh - 69px);
