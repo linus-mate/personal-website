@@ -13,6 +13,24 @@ function setNewImage(){
 function setOldImage(){
     document.querySelector('.pic').src ="images/20220810_184217.jpg";
 }
+
+const myForm = document.querySelector('.form');
+const messageInput = document.querySelector('#message');
+const msg = document.querySelector('.msg');
+
+myForm.addEventListener('click', onclick);
+
+function onclick(e){
+    e.preventDefault();
+
+    if(messageInput.value === ''){
+        msg.classList.add('error');
+        msg.innerHTML= 'cannot send an empty message';
+        setTimeout(() => msg.remove(), 3000);
+    } else{
+        console.log('success');
+    }
+}
 //$(document).ready(function(){
     //$('.menu-icon').click(function(){
        // $('.menu-list').toggleClass('show');

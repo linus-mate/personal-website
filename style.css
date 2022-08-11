@@ -148,6 +148,7 @@
     font-size: 24px;
     color: var(--gray-color);
     margin-bottom: 25px;
+    text-align: center;
   }
   .bio{
     font-size: 16px;
@@ -172,6 +173,10 @@
     color: var(--lightseagreen-color);
     transition: .3s;
   }
+  .contact-btn{
+    align-items: center;
+    text-align: center;
+  }
   .btn i{
     font-size: 26px;
     padding-left: 10px;
@@ -185,10 +190,69 @@
     display: flex;
     margin: 0 -10px;
     margin-top: 40px;
-    align-items: center;
+    text-align: center;
+    justify-content: center;
   }
   .platforms{
     padding: 0 10px;
+  }
+  .messages{
+    padding: 2rem 5%;
+  }
+  .messages h4{
+    padding-bottom: 15px;
+    font-family: 'Allura',  cursive;
+    text-align: center;
+  }
+  .messages input{
+    height: 4.125rem;
+    padding: 0 1.25em;
+    font-size: 14px;
+    width:70%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    border-top-right-radius: 0;
+    border-top-right-radius: 0;
+    color: black;
+    flex: 1;
+    border: 0;
+  } 
+  /*.btnn {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    border: 0;
+    background: var(--lightseagreen-color);
+    color: #fff;
+    border-radius: 5px;
+    margin: 5px 0;
+    height: 2.125rem;
+  }
+  .btnn:hover {
+      background: var(--gold-color);
+  }*/
+  .error {
+        background: orangered;
+        color: #fff;
+        padding: 5px;
+        margin: 5px;
+  }
+    
+  .messages button{
+    height: 4.125rem;
+    font-size: 20px;
+    font-weight: 600;
+    padding:  0 1.25em;
+    color: var(--white-color);
+    background-color: var(--lightseagreen-color);
+    cursor: pointer;
+    border: 1px solid;
+    outline: none;
+    white-space: nowrap;
+    border-top-left-radius: 0;
+    border-top-left-radius: 0;
+    border-radius:;
   }
   .media-links {
     display: flex;
@@ -327,5 +391,14 @@
     .contacts {
       justify-content: center;
     }
+    .messages h4{
+      text-align: center;
+    }
+    
   }
-  
+  .form{
+    text-align: center;
+  }
+  .form .btnn{
+    text-align: center;
+  }
